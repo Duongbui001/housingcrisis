@@ -37,11 +37,16 @@ span.first-letter {
   }
 
   p {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: black;
-    line-height: 25px;
+    line-height: 2;
     padding-top: 2px;
     padding-bottom: 2px;
+  }
+
+  h3 {
+    font-family: 'Oswald', sans-serif;
+
   }
 
   blockquote {
@@ -59,7 +64,8 @@ span.first-letter {
   .chapterhead{
     text-align: center;
     color: black;
-    padding-top: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
     }
 
   .footer {
@@ -100,7 +106,7 @@ span.first-letter {
   margin: 0;
   font-size: 15px;
   box-sizing: border-box;
-  font-family: Cardo;
+  font-family: 'Cardo', sans-serif;
   font-weight: normal;
   line-height: 25px;
 }
@@ -168,7 +174,7 @@ span.first-letter {
 .timeline-container {
   width: 100%;
   position: relative;
-  padding: 40px 0;
+  padding: 0;
   background-attachment: fixed;
   background-size: cover;
 }
@@ -188,7 +194,7 @@ span.first-letter {
 }
 .timeline-header__title {
   font-size: 38px;
-  font-family: Cardo;
+  font-family: 'Cardo', sans-serif;
   font-weight: normal;
   margin: 0;
 }
