@@ -5,7 +5,10 @@ var chart1;
 
 chart1 = {
   title: {
-    text: ''
+    text: 'House price to income ratio in England and London from 1983-2022',
+    textStyle: {
+        fontSize: 16,
+    },
   },
   tooltip: {
     trigger: 'axis'
@@ -205,6 +208,14 @@ var myChart3 = echarts.init(chartDom3);
 var chart3;
 
 chart3 = {
+  title: {
+    text: 'Home ownership aged 25-34 by region in England in 2021',
+    textStyle: {
+        fontSize: 16,
+        overflow: 'break',
+    },
+    subtext: 'Source: Census 2021'
+  },
   dataset: {
     source: [
       ['region', 'ratio'],
@@ -221,13 +232,13 @@ chart3 = {
   },
   grid: { containLabel: true },
   xAxis: {
-    name: 'Percentage of households',
+    name: 'Home ownership rate',
     nameLocation:'middle',
     nameGap: 30,
     axisLabel: {
       formatter: '{value} %'
     },
-    max: 100
+    max: 60
   },
   yAxis: {
     type: 'category',
@@ -240,10 +251,10 @@ chart3 = {
       label: {
         show: true,
         position: '',
-        color: 'white'
+        color: 'white',
+        formatter: '{@ratio}%',
       },
-
-      name: 'Home ownership',
+      colorBy: 'data',
       type: 'bar',
       encode: {
         tooltip: ['region', 'ratio'],
@@ -274,7 +285,7 @@ chart4 = {
     trigger: 'axis'
   },
   legend: {
-    data: ['England excluding London', 'London'],
+    data: ['England', 'London'],
     orient: 'vertical',
     right: 5,
     bottom: ''
@@ -314,11 +325,11 @@ chart4 = {
     type: 'value',
     name: '',
     min: 28,
-    max:38,
+    max: 38,
   },
   series: [
     {
-      name: 'England excluding London',
+      name: 'England',
       type: 'line',
       data: [31.2,31.1,30.6,29.7,30.5,31.3,31.7,31.9,31.6,32.4,31.8,32.5,32.3,33.1,32.6,32.1,31.8,32.1,33.4],
     },
