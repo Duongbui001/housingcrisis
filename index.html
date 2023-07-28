@@ -29,11 +29,9 @@
     <link rel="icon" href="favicon.ico">
 
 <!--Google Font-->   
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css?family=Libre+Franklin:400,700|Oswald|Libre+Baskerville|Raleway:400,700|Roboto:400,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Cardo|Pathway+Gothic+One" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Antonio&family=Cardo&family=Libre+Baskerville&family=Libre+Franklin&family=Open+Sans&family=Oswald&family=Pathway+Gothic+One&family=Raleway&family=Roboto&display=swap" rel="stylesheet">
 
 <!--Parallax img-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
@@ -54,28 +52,28 @@
     <div class="uk-overlay uk-position-top uk-margin-remove uk-padding-remove">
         <div uk-sticky="start: 200; animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent;">
             <nav class="uk-navbar-container">
-                <div class="uk-container">
+            
                     <div uk-navbar>
-                        <div class="uk-navbar-left uk-active">
+                        <div class="uk-navbar-left uk-active uk-margin-left">
                             <a href="#home" class="uk-active" uk-scroll="offset: 75;"><span style="font-family: 'Oswald', serif; font-weight: 900; font-size: 1.2em;color: grey;">HOME</span></a>
                         </div>
 
-                        <div class="uk-navbar-right uk-active">
+                        <div class="uk-navbar-right uk-active uk-margin-right">
                             <a href="#menu" class="uk-navbar-toggle uk-navbar-toggle-animate" uk-navbar-toggle-icon uk-scroll="offset: 75;"></a>
-                                <div class="uk-navbar-dropdown uk-width-large" uk-dropdown="boundary: 30vh; flip: false; animation: reveal-top; animate-out: true; duration: 700" style="background-color: #A9A9A9; font-weight: bolder;">
-                                    <ul class="uk-nav uk-navbar-dropdown-nav">
-                                        <li class="uk-active"><a href="#js-sticky-parallax-viewport" style="color: white;">Intro</a></li>
-                                        <li class="uk-active"><a href="#timeline1" style="color: white;">History of the housing crisis in England</a></li>
-                                        <li class="uk-active"><a href="#chapter1" style="color: white;">Chapter 1: Home ownership: a far-off dream for the young?</a></li>
-                                        <li class="uk-active"><a href="#chapter2" style="color: white;">Chapter 2: What stops the younger generations from getting on the property ladder?</a></li>
-                                        <li class="uk-active"><a href="#chapter3" style="color: white;">Chapter 3: The young victims of London’s housing crisis</a></li>
-                                        <li class="uk-active"><a href="#chapter4" style="color: white;">Chapter 4: How can we fix the broken housing market for the younger generations?</a></li>
+                                <div class="uk-navbar-dropdown uk-width-large" uk-dropdown="boundary: 30vh; flip: false; animation: reveal-top; animate-out: true; duration: 700" style="font-family: 'Baskerville', sans-serif;">
+                                    <ul class="uk-nav uk-navbar-dropdown-nav" style="font-size: 16px;">
+                                        <li class="uk-active"><a href="#js-sticky-parallax-viewport">Intro</a></li>
+                                        <li class="uk-active"><a href="#timeline1">History of the housing crisis in England</a></li>
+                                        <li class="uk-active"><a href="#chapter1">Chapter 1: Home ownership: a far-off dream for the young?</a></li>
+                                        <li class="uk-active"><a href="#chapter2">Chapter 2: What stops the younger generations from getting on the property ladder?</a></li>
+                                        <li class="uk-active"><a href="#chapter3">Chapter 3: The young victims of London’s housing crisis</a></li>
+                                        <li class="uk-active"><a href="#chapter4">Chapter 4: How can we fix the broken housing market for the younger generations?</a></li>
                                     </ul>
                                 </div>
                         </div>
                     </div>
         
-                </div>
+                
             </nav>
         </div>
     </div>
@@ -123,14 +121,13 @@
         <p>However, for many young people in London the prospect of one day owning their own home has become a very distant dream, with house prices having risen faster than wages in recent decades. In the 1980s and 1990s, the average full-time worker could expect to pay about three times their annual earnings to buy a home in England. By 2022, this increased to more than eight times their annual wages. In London, the situation is even worse, with a normal worker now needing to save thirteen times their annual income in order to purchase a house.</p>
     </div>
 
-<!-- Chart - House price to income ratio England and London -->
+    <!-- Chart - House price to income ratio England and London -->
     <div class="uk-container uk-width-3-5@m" style="padding-top: 30px;">
-        <h5><strong>House price to income ratio in England and London from 1983-2022</strong></h5>
-        <div id="main" style="width: 100%; min-height: 400px"></div>
+        <div id="main" style="width: auto; min-height: 400px"></div>
         <figcaption class="caption">Source: ONS</figcaption>   
     </div>
     <br>
-    <div class="uk-container uk-width-3-5@m" style="margin: auto;"">
+    <div class="uk-container uk-width-3-5@m" style="margin: auto;">
         <div class="uk-container uk-child-width-1-2" uk-grid>           
             <div>
                 <p><a href="https://inews.co.uk/author/vicky-spratt">Vicky Spratt</a>, housing correspondent of the i newspaper, and author of the book Tenants, states: “Saying housing crisis is being generous; it is a humanitarian emergency”, adding that every government since the 1980s has failed to do anything about the housing crisis, as the situation has gotten worse and worse.</p>
@@ -155,7 +152,7 @@
         </div>       
     </div>
 
-    <div class="uk-container uk-margin-bottom">
+    <div class="uk-container uk-margin-large-bottom">
         <p>The IFS also warns that the heaviest blow would be reserved for those under the age of 40 with larger mortgages, with the biggest financial hit for households in London and the South East of England.</p>
         <p>With mortgage costs at a record high and the soaring cost of living crisis, being able to save up enough to buy a house for young people seems unrealistic; but it hasn’t always been this way. What, specifically, has gone wrong in the housing sector that has made it get worse in England, particularly in London, over the last few decades?</p>
     </div>
@@ -233,57 +230,47 @@
     </div>
 
 <!--Home ownership: a far-off dream for the young?-->
-    <div class="uk-section uk-section-default">
+    <div class="uk-container uk-margin-top">
         <div class="chapterhead uk-width-1-3 uk-align-center uk-hidden-small">
-            <h3 id="chapter1" style="font-family: 'Oswald', cursive;">Chapter 1:  <hr></h3>
-            <h3 style="font-family: 'Oswald', cursive;">Home ownership: a far-off dream for the young?</h3>
+            <h3 id="chapter1">Chapter 1:  <hr></h3>
+            <h3>Home ownership: a far-off dream for the young?</h3>
           </div>  
     </div>
     
-        <div id="js-sticky-parallax-viewport2" class= "uk-container uk-child-width-auto uk-width-3-5@m" style="margin: auto;" uk-grid>
-            <div class="uk-width-1-3">
-                <div uk-sticky="end: #js-sticky-parallax-viewport2">
-                    <p>The chance of a young adult owning a home in England has dropped dramatically over the past two decades, from almost 60 percent of 25–34-year-old owning their home in 2003 to 40 percent in 2022, according to the <a href="https://www.gov.uk/government/statistics/english-housing-survey-2021-to-2022-headline-report/english-housing-survey-2021-to-2022-headline-report">English Housing Survey 2022</a>.</p>
-                </div>
-            </div>
-<!--Chart - Housing tenure types-->
-            <div class="uk-width-2-3 uk-margin-bottom">
-                <h5 style="text-align: center;"><strong>Trend in housing tenure for the age group 25-34 in England from 2003-2022</strong></h5>
-                <div id="main2" style="width: 100%; min-height: 400px"></div>
-                <figcaption class="caption">Source: English Housing Survey 2022</figcaption>   
-            </div>
+        <div class= "uk-container uk-width-3-5@m">
+            <p>The chance of a young adult owning a home in England has dropped dramatically over the past two decades, from almost 60 percent of 25–34-year-old owning their home in 2003 to 40 percent in 2022, according to the <a href="https://www.gov.uk/government/statistics/english-housing-survey-2021-to-2022-headline-report/english-housing-survey-2021-to-2022-headline-report">English Housing Survey 2022</a>.</p>
         </div>
         <br>
-
-        <div id="js-sticky-parallax-viewport3" class= "uk-container uk-child-width-auto uk-width-3-5@m" style="margin: auto;" uk-grid>
-<!--Chart - Homeownership ratio -->
-            <div class="uk-width-2-3">
-                <h5 style="text-align: center;"><strong>Home ownership percentage for the age group 25-34 per region in England in 2021</strong></h5>
-                <div id="main3" style="width: 100%; min-height: 400px"></div>
-                <figcaption class="caption">Source: Census 2021</figcaption>   
-            </div>
-
+        <!--Chart - Housing tenure types-->
+        <div class="uk-container uk-width-3-5@m">
+            <h5 style="text-align: center;"><strong>Trend in housing tenure for the age group 25-34 in England from 2003-2022</strong></h5>
+            <div id="main2" style="width: auto; min-height: 400px"></div>
+            <figcaption class="caption">Source: English Housing Survey 2022</figcaption>   
+        </div>
+        <br>
+        <div id="js-sticky-parallax-viewport2" class= "uk-container uk-child-width-auto uk-width-3-5@m" style="margin: auto;" uk-grid>
             <div class="uk-width-1-3">
-                <div uk-sticky="end: #js-sticky-parallax-viewport3">
+                <div uk-sticky="end: #js-sticky-parallax-viewport2; offset: 80">
                     <p>At a regional level, London has the lowest level of home ownership among young people, with only 27 percent of those aged 25 to 34 owning a home, far below any other region in England.</p>
                 </div>
             </div>
-         </div>
-         <br>
+            <!--Chart - Homeownership ratio -->
+            <div class="uk-width-2-3 uk-margin-bottom">
+                <div id="main3" style="width: auto; min-height: 400px"></div>
+            </div>
+        </div>
 
         <div class="uk-container uk-width-3-5@m">
             <p>Furthermore, the average age of first-time buyers has increased over the years across the country, from 31 in 2003/04 to 33 in 2021/22. In London, the average age of first-time buyers was higher than the rest of the country during the timeline, increasing from 32 in 2003 to 37 in 2019. It did drop, however, to 34 in 2022 after the COVID-19 pandemic. This suggests that young people in London have to save for a house deposit for a longer period now than in the past, and also for longer time than their peers in the rest of the country.</p>
         </div>
         <br>
-
- <!--Chart - First time buyers age -->           
+        <!--Chart - First time buyers age -->           
         <div class="uk-container uk-width-3-5@m">
-            <h5 style="text-align: center;"><strong>Average age of first-time home buyers in London and England excluding London in 2003-2022</strong></h5>
+            <h5 style="text-align: center;"><strong>Average age of first-time home buyers in London and England in 2003-2022</strong></h5>
             <div id="main4" style="width: auto; min-height: 400px"></div> 
             <figcaption class="caption">Source: English Housing Survey</figcaption>  
         </div>
         <br>
-        
         <div class="uk-container uk-width-3-5@m">
             <div class="uk-grid-large" uk-grid>
                 <div class="uk-width-1-2">
@@ -304,24 +291,24 @@
             <p>In 2021, young adults between 25 and 34 years old account for the highest proportion in the private rental sector in comparison with any other age group within London. Not surprisingly, outright owners were concentrated among the older age bands, 50 and over, while mortgagors were typically in the middle age bands, 35-to-49-year-olds.</p>
         </div>
         <br>
-<!--Chart - Distribution of tenure types by age groups in London in 2021 -->
+        <!--Chart - Distribution of tenure types by age groups in London in 2021 -->
         <div class="uk-container uk-width-3-5@m">
             <h5 style="text-align: center;"><strong>Distribution of tenure types by age group in London in 2021</strong></h5>
-            <div id="main5" style="width: 100%; min-height: 400px"></div> 
+            <div id="main5" style="width: auto; min-height: 400px"></div> 
             <figcaption class="caption">Source: Census 2021</figcaption>  
-        </div><br>
-    
-        <div class="uk-container uk-width-3-5@m uk-margin-bottom">
+        </div>
+        <br>
+        <div class="uk-container uk-width-3-5@m uk-margin-medium-bottom">
             <p>Experts warn that whilst renting privately can offer flexibility, it can also come with challenges, including a lack of affordability, especially for those young people hoping to save for a deposit on a house; poor living conditions; and housing insecurity due to common short-term tenancy agreements.</p>
         </div>
 
 <!--What stops the younger generations from getting on the property ladder?-->
     <div class="parallax-window" data-parallax="scroll" data-image-src="img/youngpeople.jpg"></div>
 
-    <div class="uk-section uk-section-default">
+    <div class="uk-container uk-margin-top">
         <div class="chapterhead uk-width-1-3 uk-align-center uk-hidden-small">
-            <h3 id="chapter2" style="font-family: 'Oswald', cursive;">Chapter 2:</h3><hr>
-            <h3 style="font-family: 'Oswald', cursive;">What stops the younger generations from getting on the property ladder?</h3>
+            <h3 id="chapter2">Chapter 2:</h3><hr>
+            <h3>What stops the younger generations from getting on the property ladder?</h3>
         </div>  
     </div>
 
@@ -330,9 +317,9 @@
             <p>According to the ONS, the average house price is 58 times higher than it was in the 1970s, yet the price of other products has only increased by five to ten times.</p>
         </div>
         <br>
-<!--Chart - Prices change in 50 years -->
+        <!--Chart - Prices change in 50 years -->
         <div class="uk-container uk-width-3-5@m">
-            <div id="main6" style="width: 100%; min-height: 400px"></div>   
+            <div id="main6" style="width: auto; min-height: 400px"></div>   
         </div>
         <br>
         <div class="uk-container uk-width-3-5@m">
@@ -340,13 +327,16 @@
                 <div class="uk-width-1-2">
                     <p>Nishan Hussain, a coordinator of the rough sleeping support programme at Brent London Borough Council, and housing consultant at Hertfordshire County Council, says the main reason behind the housing crisis that the young are now facing is that salaries are not going up in line with house prices.</p>
                     <p>"The cost of living and inflation are sky-high; interest rates and mortgage repayments are extremely unaffordable in those circumstances. How do you expect a young person to get on the property ladder?", she questions.</p>
-                    <p>Another problem is the affordability test for mortgages, according to Hussain. With the high cost of living, there are very few chances for many young people to pass that test in order to borrow from the bank.</p>
-                </div>
+                    </div>
                 <div class="uk-width-1-2 uk-text-center">
                     <img src="img/nishan2.png" alt="Nishan Hussain" width="300" style="float: bottom-right">
                     <hr><figcaption class="caption">Nishan Hussain, housing officer/Photo credit: Duong Bui</figcaption><hr>
                 </div>
             </div>
+        </div>
+        <br>
+        <div class="uk-container uk-width-3-5@m">
+            <p>Another problem is the affordability test for mortgages, according to Hussain. With the high cost of living, there are very few chances for many young people to pass that test in order to borrow from the bank.</p>
         </div>
         <br>
         <div class="uk-container uk-width-3-5@m">
@@ -358,39 +348,35 @@
                 <div class="uk-width-1-2">
                     <p>Meanwhile, Nick Gallent, professor of housing and planning at University College London (UCL), explains that housing has become an investment vehicle in London, with its position as a global city, which has driven the demand side beyond the supply, pushing house prices out of reach for many young people.</p>  
                     <p>He further adds that London’s housing problems are also rooted in unequal distribution and inequality in access to the housing resource, which is concentrated in the hands of investors and older generations.</p>
-                    <p>“London is getting to a point where there are plenty of expensive flats for investors and really nothing that people on ordinary incomes can afford”, states Gallent.</p>
-                </div>
+                    </div>
             </div>
         </div>
 
         <div class="uk-container uk-width-3-5@m">
-            <div>
-                <p>He also highlights that for the younger generations, who are at an earlier stage of career development in a rising market where wages are stagnating and asset prices are growing, the younger they are, the more disadvantaged they will be.</p>
-                <p>Furthermore, the UCL professor points out that some of the current ways to support younger first-time buyers, such as help to buy or 100 percent mortgages when they were available, don't actually help to address the enduring issues in the housing system because "they're not concerned with the fundamental question of the relationship between earnings and house prices.</p>
-                <p>He explains that those programmes will encourage more cash flow into the housing market, which could potentially push prices up.</p>
-                <p>"We're at a point of a difficult dynamic at the moment because everything is sort of locked; the whole system is locked. House prices are teetering, but they're not dropping substantially. Rents are increasing as landlords try to recover the costs as a result of rising interest rates and falling tax relief. Meanwhile, homeowners are struggling with higher mortgage costs. In the end, nobody's happy", he says.</p>
-            </div>
-            <br>
-            <div class="uk-container uk-child-width-1-2" uk-grid style="margin: auto;">
-                <div>
-                    <blockquote>
-                        <p>For the younger generations, who are at an earlier stage of career development in a rising market where wages are stagnating and asset prices are growing, the younger they are, the more disadvantaged they will be.</p>
-                    </blockquote>
-                    <cite>Nick Gallent, professor of housing and planning at UCL</cite>
-                </div>
-                <div>
-                    <p>Rising house prices in the last two decades have exacerbated intergenerational inequality by advantaging wealthy older homeowners who purchased houses at a low price and benefited from the cheap mortgages. It has also worsened wealth inequality by restricting the privilege of home ownership to those with wealthy parents.</p>
-                </div>       
-            </div>  
+            <p>“London is getting to a point where there are plenty of expensive flats for investors and really nothing that people on ordinary incomes can afford”, states Gallent.</p>
+            <p>He also highlights that for the younger generations, who are at an earlier stage of career development in a rising market where wages are stagnating and asset prices are growing, the younger they are, the more disadvantaged they will be.</p>
+            <p>Furthermore, the UCL professor points out that some of the current ways to support younger first-time buyers, such as help to buy or 100 percent mortgages when they were available, don't actually help to address the enduring issues in the housing system because "they're not concerned with the fundamental question of the relationship between earnings and house prices.</p>
+            <p>He explains that those programmes will encourage more cash flow into the housing market, which could potentially push prices up.</p>
+            <p>"We're at a point of a difficult dynamic at the moment because everything is sort of locked; the whole system is locked. House prices are teetering, but they're not dropping substantially. Rents are increasing as landlords try to recover the costs as a result of rising interest rates and falling tax relief. Meanwhile, homeowners are struggling with higher mortgage costs. In the end, nobody's happy", he says.</p>
+        </div>
+        <br>
+        <div class="uk-container uk-width-3-5@m" style="margin: auto;">
+            <blockquote>
+                <p>For the younger generations, who are at an earlier stage of career development in a rising market where wages are stagnating and asset prices are growing, the younger they are, the more disadvantaged they will be.</p>
+            </blockquote>
+            <cite>Nick Gallent, professor of housing and planning at UCL</cite>                 
         </div>  
         <br>
         <div class="uk-container uk-width-3-5@m">
+            <p>Rising house prices in the last two decades have exacerbated intergenerational inequality by advantaging wealthy older homeowners who purchased houses at a low price and benefited from the cheap mortgages. It has also worsened wealth inequality by restricting the privilege of home ownership to those with wealthy parents.</p>
+        </div>  
+        <br>
+        <div class="uk-container uk-width-3-5@m uk-margin-bottom">
             <div class="uk-grid-large" uk-grid>
                 <div class="uk-width-1-2">
                     <p>Jonathan Bayley, a 29-year-old teacher, is among those lucky people who can afford to live in a house in Southwark, South East London. His mother bought the property at a low price in the 1990s, and now its value has increased more than 10 times to over £1,000,000.</p>
                     <p>"Unless you are fortunate enough to have somewhere to live here, maybe through relatives, then renting is incredibly expensive, and buying a house sounds impossible unless you have help with a deposit", he says.</p>
-                    <p>"Before the interest rates went up last year, you just needed to try to save for a deposit, as the interest rates were relatively low. But now, even if you manage to pay for a deposit, you still need to spend a fair amount of money to pay for mortgage”, states Bayley.</p>       
-                </div>
+                    </div>
                 <div class="uk-width-1-2 uk-text-center">
                     <img src="img/jon.png" alt="Jonathan Bayley" width="300" style="float: bottom-right">
                     <hr><figcaption class="caption">Jonathan Bayley, 29-year-old teacher/Photo credit: Duong Bui</figcaption><hr>
@@ -398,6 +384,7 @@
             </div>
             <br>    
             <div>
+                <p>"Before the interest rates went up last year, you just needed to try to save for a deposit, as the interest rates were relatively low. But now, even if you manage to pay for a deposit, you still need to spend a fair amount of money to pay for mortgage”, states Bayley.</p>       
                 <p>He further adds: “It doesn’t seem like a sustainable option to live here because the mortgage cost is really high. The housing situation in England is awful, unsustainable, and impoverishing, but in London, it’s obviously much worse.”</p>
             </div>
         </div>
@@ -405,10 +392,10 @@
 <!--The young victims of London’s housing crisis-->
     <div class="parallax-window" data-parallax="scroll" data-image-src="img/house1.jpg"></div>
 
-    <div class="uk-section uk-section-default">
+    <div class="uk-container uk-margin-top">
         <div class="chapterhead uk-width-1-3 uk-align-center uk-hidden-small">
-            <h3 id="chapter3" style="font-family: 'Oswald', cursive;">Chapter 3: <hr></h3>
-            <h3 style="font-family: 'Oswald', cursive;">The young victims of London’s housing crisis</h3>
+            <h3 id="chapter3">Chapter 3: <hr></h3>
+            <h3>The young victims of London’s housing crisis</h3>
         </div>  
     </div>
     
@@ -426,9 +413,9 @@
             </div>
         </div>
         <br>
-        <div class="uk-container uk-width-4-5@m uk-text-center">
+        <div class="uk-container uk-width-3-5@m uk-text-center">
             <img src="img/copy.jpeg" alt="housing" width=100%>
-            <figcaption class="uk-width-2-3 uk-align-center">More than one in four London families has at least one adult child in the house, the largest proportion of any English region, as more young adults are unable to afford their own home, ONS figures reveal/Photo credit: Unsplash.</figcaption>
+            <figcaption class="uk-align-center">More than one in four London families has at least one adult child in the house, the largest proportion of any English region, as more young adults are unable to afford their own home, ONS figures reveal/Photo credit: Unsplash.</figcaption>
         </div>
         <br>
         <div class="uk-container uk-width-3-5@m" style="margin: auto;">
@@ -453,25 +440,25 @@
                 <div>
                     <p>Matias Wood, a 26-year-old actor, is struggling to find a place to live in South West London. Disappointed and tired, he has been hunting for an apartment for the last six months whilst staying on a sofa in his friend’s house in Sutton, South London.</p>
                     <p>He says he raised his budget from £700 to £800 per month for renting a small room, but he has had no luck so far. "The properties that are sort of within my price range just look very unlivable. I've looked around a few of them, and they're just covered in mould or have broken things."</p>
-                    <p>Wood says: "I don't know how people manage to get a job where they can earn enough money to spend thousands on rent or pay for a mortgage. I usually spend more than half of my earnings on rent, and on top of that, I still need to pay bills and transportation”.</p>
-                </div>
+                    </div>
                 <div class="uk-text-center">
                     <img src="img/matias.png" alt="Matias Wood" width="300" style="float: bottom-right">
                     <hr><figcaption class="caption">Matias Wood, 26-year-old actor/Photo credit: Matias Wood</figcaption><hr>
                 </div>
             </div>
             <div>
+                <p>Wood says: "I don't know how people manage to get a job where they can earn enough money to spend thousands on rent or pay for a mortgage. I usually spend more than half of my earnings on rent, and on top of that, I still need to pay bills and transportation”.</p>
                 <p>“At the end of the day, I don’t have any money to save. There's no way of growing your wealth in London, especially for young people without family support”, he further adds. </p>
                 <p>He left his home when he was 16 to pursue an acting career in London, and since then he has had many different jobs, but it is never enough to pay for the living costs in the city.</p>
                 <p>"It's so frustrating because I don't even agree that this is how society should be. I don't think it should be only about money, wealth, and making profit. I think it should be about caring for each other and making sure that everyone else is okay", remarks Wood.</p>
             </div>
         </div>
-        <div class="uk-container uk-width-4-5@m">
+        <div class="uk-container uk-width-3-5@m">
             <img src="img/boat2.jpg" alt="boats in London" width=100%>
-            <figcaption class="uk-width-2-3 uk-align-center">As London's rents and house prices continue their rapid rise, more people are choosing to live on a boat because it is a more affordable option/Photo credit: Unsplash.</figcaption>
+            <figcaption class="uk-align-center">As London's rents and house prices continue their rapid rise, more people are choosing to live on a boat because it is a more affordable option/Photo credit: Unsplash.</figcaption>
         </div>
         <br>
-        <div class="uk-container uk-width-3-5@m">
+        <div class="uk-container uk-width-3-5@m uk-margin-bottom">
             <p>For Anna, who asked not to reveal her real name, a master’s student in Environmental Humanities in London, living in a boat is the alternative to buying a house or renting amid the rising cost of living crisis.</p>
             <p>"Cruising the boat is like having a part-time job, as it normally takes me the whole day to do it. I need to get water, empty my toilet, and get engine maintenance. I need to balance that with working and studying", she says.</p>
             <p>She bought her boat for £5,000 in 2022, and she doesn’t pay for mooring fees or other costs except the boat licence as she continues cruising and moving across the canal system in West London.</p>
@@ -482,10 +469,10 @@
 <!--How can we fix the broken housing market for the younger generations?-->
     <div class="parallax-window" data-parallax="scroll" data-image-src="img/sale1.jpg"></div>
 
-    <div class="uk-section uk-section-default">
+    <div class="uk-container uk-margin-top">
         <div class="chapterhead uk-width-1-3 uk-align-center uk-hidden-small">
-            <h3 id="chapter4" style="font-family: 'Oswald', cursive;">Chapter 4:  <hr></h3>
-            <h3 style="font-family: 'Oswald', cursive;">How can we fix the broken housing market for the younger generations?</h3>
+            <h3 id="chapter4">Chapter 4:  <hr></h3>
+            <h3>How can we fix the broken housing market for the younger generations?</h3>
         </div>  
     </div>
 
@@ -556,8 +543,8 @@
         <p>At a local level, Hussain suggests that the UK government should give more funding to local authorities for affordable housing and develop policies to encourage housing associations, as well as focus on investing in the community rather than the private sector.</p>
         <p>"The government should invest in and prioritise the community’s living conditions, health, and wellbeing because people are suffering massively as a result of it", she says.</p>
     </div>
-    <br><div class="uk-container uk-width-4-5@m">
-        <img src="img/skiphouse2.jpg" alt="Skip house" width=100%>
+    <br><div class="uk-container uk-width-3-5@m">
+        <img src="img/skiphouse2.jpg" alt="Skip house" width=auto>
         <figcaption>Inside the skip house in Bermondsey, South East London. Photo credit: Harrison Marshall/Skip house</figcaption>        
     </div><br>
 
@@ -575,15 +562,15 @@
     </div>
             
     <!-- Footer -->
-    <div style="padding-top: 4em; padding-bottom: 4em;">
+    <div style="padding-top: 4em; padding-bottom: 0;">
         <footer class="footer">
             <div class="uk-container uk-width-4-5@" uk-grid style="margin: auto;">
                     <div class="uk-width-1-3">
-                        <h2 style="color: #A78295; font-family: 'Oswald', cursive;">About</h2>
+                        <h2 style="color: whitesmoke; font-family: 'Oswald', cursive;">About</h2>
                         <p style="color: white;">Text, code, video and photos made by <a href="https://www.linkedin.com/in/bui-duong-a29542133/">Duong Bui</a> unless otherwise specified.</p>   
                     </div>
                     <div class="uk-width-1-3">
-                            <h2 style="color: #A78295; font-family: 'Oswald', cursive;">Other works</h2>
+                            <h2 style="color: whitesmoke; font-family: 'Oswald', cursive;">Other works</h2>
                             <ul class="uk-list">
                                 <li><a href="https://www.doc.gold.ac.uk/~tbui001/myproject2022/index.php/housing/london-housing-paradox/">London housing paradox</a></li>
                                 <li><a href="https://www.doc.gold.ac.uk/~tbui001/report/autumnstatement.html">AUTUMN STATEMENT 2022: The Twitter reaction</a></li>
@@ -592,7 +579,7 @@
                             </ul>
                     </div>  
                     <div class="uk-width-1-3">
-                        <h2 style="color: #A78295; font-family: 'Oswald', cursive;">Contact</h2>
+                        <h2 style="color: whitesmoke; font-family: 'Oswald', cursive;">Contact</h2>
                         <div class="uk-inline">
                         <span class="uk-margin-small-right" uk-icon="icon: mail"></span><span><a href="mailto:duong3ku@gmail.com">duong3ku@gmail.com</a></span>
                         </div>
